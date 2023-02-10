@@ -1,3 +1,15 @@
+# 원본 bcp-47 패키지가 강제로 ESM 모듈만 강요하고 있어서 CommonJS 로 빌드되도록 수정하였음
+## 빌드
+```sh
+npm run build:cjs
+```
+
+## 설치법
+```
+npm install --registry https://npm.pkg.github.com @torderdev/bcp-47
+```
+
+
 # bcp-47
 
 [![Build][build-badge]][build]
